@@ -50,7 +50,7 @@ const Navbar = () => {
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          LAMA DEV
+          YOUR SOCIAL
         </Typography>
         <Tag sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
@@ -74,7 +74,7 @@ const Navbar = () => {
             sx={{ width: 30, height: 30, cursor: "pointer" }}
             src="https://images.pexels.com/photos/7622094/pexels-photo-7622094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           />
-          <Typography variant="span">John</Typography>
+          <Typography variant="span">Maria</Typography>
         </UserBox>
       </StyledToolbar>
       <Menu
