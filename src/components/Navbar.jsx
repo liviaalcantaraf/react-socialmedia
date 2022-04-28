@@ -65,14 +65,14 @@ const Navbar = () => {
           </Badge>
           <Avatar
             sx={{ width: 30, height: 30, cursor: "pointer" }}
-            src="https://images.pexels.com/photos/7622094/pexels-photo-7622094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80"
             onClick={(e) => setOpen(true)}
           />
         </Icons>
         <UserBox onClick={(e) => setOpen(true)}>
           <Avatar
             sx={{ width: 30, height: 30, cursor: "pointer" }}
-            src="https://images.pexels.com/photos/7622094/pexels-photo-7622094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80"
           />
           <Typography variant="span">Maria</Typography>
         </UserBox>

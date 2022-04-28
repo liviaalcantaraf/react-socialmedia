@@ -60,21 +60,21 @@ const New = () => {
         <Box
           width={400}
           height={280}
-          bgcolor="white"
+          bgcolor="background.default"
           color={"text.primary"}
           p={3}
           borderRadius={5}
         >
           <Typography variant="h6" color="gray" textAlign="center">
-            Create post
+            New Post
           </Typography>
           <UserBox>
             <Avatar
-              src="https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80"
               sx={{ width: 30, height: 30 }}
             />
             <Typography fontWeight={500} variant="span">
-              John Doe
+              Maria
             </Typography>
           </UserBox>
           <TextField
@@ -82,7 +82,7 @@ const New = () => {
             id="standard-multiline-static"
             multiline
             rows={3}
-            placeholder="What's on your mind?"
+            placeholder="What's up, Maria?"
             variant="standard"
           />
           <Stack direction="row" gap={1} mt={2} mb={3}>
